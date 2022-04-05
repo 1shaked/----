@@ -34,8 +34,10 @@ class Queue:
         prev.n = item
 
     def DeQueue(self):
+        # [1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9]
         root = self.root
         nextV = root.n
+        prev = None
         while nextV is not None:
             nextV = nextV.n
             prev = root
@@ -43,6 +45,11 @@ class Queue:
 
         root.printNode()
         prev.n = None
+     
+    def top(self):
+        return self.root
+    def __str__(self):
+        return f'root value is {self.root.v}'
 
 
 if __name__ == '__main__':
@@ -57,3 +64,6 @@ if __name__ == '__main__':
     q.EnQueue(n1)
     q.DeQueue()
     q.print()
+    top = q.top()
+
+    print(top)
