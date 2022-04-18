@@ -27,7 +27,7 @@ def addElementWitDoubleHashing(arr, index,element, fn):
 
 
 
-keys :list = [12,9,33,54,27,38, 57, 83 , 16,32,22,60,72,50]
+keys :list = [12,9,33,54,27,69,38, 57, 83 , 16,32,22,60,72,50]
 h1_obj: list = []
 h2_obj:list = []
 
