@@ -41,7 +41,7 @@ for i, v in enumerate(h1_obj):
     print(i, v)
 
 
-print('H2 Here')
+print('H2 Here', '*' * 100)
 for i, v in enumerate(h2_obj):
     print(i, v)
 
