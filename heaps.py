@@ -291,3 +291,12 @@ heap = [15, 13, 9, 5,12, 8, 7, 4, 0, 6, 2, 1]
 res = heapUpdateKey(heap, 5, 20)
 print(res)
 '''
+
+'''
+# showing how to create a heap from a list of elements
+arr = []
+heap = [15, 13, 9, 5,12, 8, 7, 4, 0, 6, 2, 1]
+for i in heap:
+    arr = heapInsertKey(arr, i)
+print(arr)
+'''
