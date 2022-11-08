@@ -70,7 +70,7 @@ def flipBoolForward(arr: list[bool]):
     print(arr)
     return count
 
-a = [0,1,0,1,0,1,0,1, 0 , 1, 0 , 1, 0 ,1]
+'''a = [0,1,0,1,0,1,0,1, 0 , 1, 0 , 1, 0 ,1]
 b = [0,1,0,1,0,1,0,1, 0 , 1, 0 , 1, 0 ,1]
 bool_arr_a: list[bool] = [bool(x) for x in a]
 bool_arr_b: list[bool] = [bool(x) for x in b]
@@ -81,3 +81,6 @@ c_2 = flipBol(bool_arr_b)
 count_flip = flip([0,1,3,2,1,0,2,3,1], 1, 4)
 
 print(count_flip)
+'''
+
+v = c_2 = flipBol([False, True, False])

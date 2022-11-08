@@ -39,8 +39,8 @@ def FindDp(n1: int, n2: int, s1: int, s2: int, m: int) -> int:
         
         if currentBest != math.inf:
             options[i] = currentBest
-    
+    print(len(options.keys()))
     return options[m]
 
 
-print(FindDp(11, 7,2, 6 , 7))
+print(FindDp(15, 16,0, 0 , 14))
